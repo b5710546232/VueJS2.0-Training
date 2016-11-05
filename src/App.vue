@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
-    <Temp></Temp>
     <!-- <img src="./assets/logo.png"> -->
     <router-view class="view"></router-view>
     <!-- <input v-model="vm.searchPlace" v-gTemp-searchbox="vm" placeholder="enter some.."> -->
@@ -10,7 +9,6 @@
 
 <script>
 import Navbar from './components/Navbar.vue'
-import Temp from './components/Temp.vue'
 export default {
   name: 'app',
   data () {
@@ -23,8 +21,7 @@ export default {
     }
   },
   components : {
-    Navbar,
-    Temp
+    Navbar
   }
 }
 </script>

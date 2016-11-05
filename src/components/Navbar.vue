@@ -31,7 +31,7 @@
          <router-link to="/">Home</router-link>
       </a>
       <a class="nav-item" href="#">
-        <router-link to="/foo">Documentation</router-link>
+        <router-link to="/map">Map</router-link>
       </a>
       <a class="nav-item" href="#">
         Blog
@@ -45,9 +45,9 @@
           <span>Tweet</span>
         </a>
         <a class="button is-primary" href="#">
-          <span class="icon">
+          <!-- <span class="icon">
             <i class="fa fa-download"></i>
-          </span>
+          </span> -->
           <span>Download</span>
         </a>
       </span>

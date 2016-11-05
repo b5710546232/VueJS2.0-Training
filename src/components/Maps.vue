@@ -1,8 +1,7 @@
 <template lang="html">
-  <div class="">
-    temp
-    <div id="map"></div>
-  </div>
+  <div id="map"></div>
+  <!-- <div class="columns"> -->
+  <!-- </div> -->
 </template>
 
 <script>
@@ -18,14 +17,19 @@ export default {
       lng: -77.028333
     })
   },
-  methods: {},
+  methods: {
+    initMap(){}
+  },
   components: {}
 }
 </script>
 
 <style scoped>
 #map{
+  display: flex;
   width: 100%;
   height: 100vh;
+  transform-origin: 0px 0px;
+  transform: scale(0.5, 0.5);
 }
 </style>
